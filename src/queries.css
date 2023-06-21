@@ -1,0 +1,162 @@
+/**********************/
+/* BELOW 1366px (Smaller Desktop) */
+/**********************/
+
+@media (width <= 85.4em) {
+  .content {
+    margin-top: 10rem;
+  }
+
+  .content--text-title {
+    font-size: 6.2rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .content--text-paragraph {
+    font-size: 2rem;
+    margin-bottom: 4.8rem;
+    width: 65%;
+  }
+
+  .button {
+    font-size: 1.4rem;
+    padding: 2.2rem 3.8rem;
+  }
+
+  .footer {
+    margin-top: 10rem;
+  }
+}
+
+/**********************/
+/* BELOW 1024px (Smaller Desktop) */
+/**********************/
+
+@media (width <= 64em) {
+  .content--text-title {
+    font-size: 4.4rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .content--text-paragraph {
+    font-size: 1.8rem;
+    margin-bottom: 4.8rem;
+    width: 65%;
+  }
+
+  .button {
+    font-size: 1.2rem;
+    padding: 1.6rem 3.2rem;
+  }
+}
+
+/**********************/
+/* BELOW 768px (Tablet) */
+/**********************/
+
+@media (width <= 48em) {
+  .header {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+
+  .content {
+    margin-top: 8rem;
+  }
+
+  .content--text-title {
+    font-size: 3rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .content--text-paragraph {
+    font-size: 1.2rem;
+    margin-bottom: 4.8rem;
+    width: 65%;
+  }
+
+  .button {
+    font-size: 0.8rem;
+    padding: 1.2rem 2.8rem;
+  }
+
+  .footer {
+    font-size: 1rem;
+  }
+}
+
+/**********************/
+/* BELOW 425px (Mobile L) */
+/**********************/
+
+@media (width <= 26.6em) {
+  .header {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+
+  .content {
+    grid-template-columns: 1fr;
+    margin-top: 4rem;
+  }
+
+  .content--text-title {
+    font-size: 3.8rem;
+    margin-bottom: 2.4rem;
+    width: 100%;
+  }
+
+  .content--text-paragraph {
+    font-size: 1.6rem;
+    margin-bottom: 4.8rem;
+    width: 85%;
+  }
+
+  .button {
+    font-size: 1.2rem;
+    padding: 1.8rem 3.2rem;
+  }
+
+  .img {
+    width: 75%;
+    margin-bottom: 2.4rem;
+  }
+}
+
+/**********************/
+/* BELOW 375px (Mobile M) */
+/**********************/
+
+@media (width <= 23.5em) {
+  .header {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+
+  .content {
+    grid-template-columns: 1fr;
+    margin-top: 4rem;
+  }
+
+  .content--text-title {
+    font-size: 3.2rem;
+    margin-bottom: 2.4rem;
+    width: 100%;
+  }
+
+  .content--text-paragraph {
+    font-size: 1.2rem;
+    margin-bottom: 4.6rem;
+    width: 85%;
+  }
+
+  .button {
+    font-size: 0.8rem;
+    padding: 1.2rem 2.8rem;
+  }
+
+  .img {
+    width: 75%;
+    margin-bottom: 2.4rem;
+  }
+}
